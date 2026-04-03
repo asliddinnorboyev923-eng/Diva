@@ -9,23 +9,23 @@ export function Services() {
     {
       icon: <Sofa className="w-8 h-8 stroke-1" />,
       titleUz: "Mebel tozalash",
-      titleEn: "Furniture Cleaning",
+      titleRu: "Чистка мебели",
       descUz: "Yumshoq mebellarni chuqur tozalash, dog'larni ketkazish va asl rangini tiklash.",
-      descEn: "Deep cleaning for upholstered furniture, stain removal, and restoring original colors.",
+      descRu: "Глубокая чистка мягкой мебели, удаление пятен и восстановление первоначального цвета.",
     },
     {
       icon: <Wind className="w-8 h-8 stroke-1" />,
       titleUz: "Gilam tozalash",
-      titleEn: "Carpet Cleaning",
+      titleRu: "Чистка ковров",
       descUz: "Gilamlarni joyida yuvish, chang va bakteriyalarni 99% gacha yo'q qilish.",
-      descEn: "On-site carpet washing, eliminating up to 99% of dust and bacteria.",
+      descRu: "Чистка ковров на месте, устранение до 99% пыли и бактерий.",
     },
     {
       icon: <Bed className="w-8 h-8 stroke-1" />,
       titleUz: "Matras tozalash",
-      titleEn: "Mattress Cleaning",
+      titleRu: "Чистка матрасов",
       descUz: "Sog'lom uyqu uchun matraslarni gigiyenik tozalash va hidlarni yo'qotish.",
-      descEn: "Hygienic mattress cleaning and odor removal for a healthy sleep environment.",
+      descRu: "Гигиеническая чистка матрасов и устранение запахов для здорового сна.",
     },
   ];
 
@@ -34,12 +34,12 @@ export function Services() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl mb-4 text-foreground">
-            {t("Bizning Xizmatlar", "Our Services")}
+            {t("Bizning Xizmatlar", "Наши услуги")}
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             {t(
               "Har bir detalga alohida e'tibor qaratamiz. Eng zamonaviy uskunalar yordamida uyingiz pokizaligini ta'minlaymiz.",
-              "We pay attention to every detail. Using the most modern equipment, we ensure the purity of your home."
+              "Мы уделяем внимание каждой детали. С помощью современного оборудования обеспечиваем безупречную чистоту вашего дома."
             )}
           </p>
         </div>
@@ -58,10 +58,10 @@ export function Services() {
                 {service.icon}
               </div>
               <h3 className="text-xl font-serif font-medium mb-3 text-foreground">
-                {t(service.titleUz, service.titleEn)}
+                {t(service.titleUz, service.titleRu)}
               </h3>
               <p className="text-muted-foreground font-light leading-relaxed">
-                {t(service.descUz, service.descEn)}
+                {t(service.descUz, service.descRu)}
               </p>
             </motion.div>
           ))}

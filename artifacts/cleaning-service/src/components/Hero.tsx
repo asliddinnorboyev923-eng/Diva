@@ -25,23 +25,26 @@ export function Hero() {
           className="max-w-3xl"
         >
           <span className="inline-block py-1 px-3 mb-6 border border-white/30 text-white text-sm font-medium tracking-widest uppercase backdrop-blur-sm">
-            {t("Premium Tozalash Xizmati", "Premium Cleaning Service")}
+            {t("Premium Tozalash Xizmati", "Премиум-сервис уборки")}
           </span>
           <h1 className="text-5xl md:text-7xl font-serif text-white leading-[1.1] mb-6">
-            {t("Chuqur tozalash. Yangi uy. Premium xizmat.", "Deep Clean. Fresh Home. Premium Service.")}
+            {t(
+              "Mebelingizni yangi holatga qaytaramiz — 1 kunda toza, yangi va yoqimli hid bilan",
+              "Вернем вашей мебели новый вид — чистота, свежесть и приятный запах всего за 1 день"
+            )}
           </h1>
           <p className="text-lg md:text-xl text-white/90 mb-10 max-w-2xl font-light">
             {t(
               "Bizning mutaxassislarimiz mebel va gilamlaringizni dog', bakteriya va changlardan tozalab, uyingizga musaffolik baxsh etadi.",
-              "Our experts restore your furniture and carpets, removing stains, bacteria, and dust to bring pure freshness back to your home."
+              "Наши специалисты очистят мебель и ковры от пятен, бактерий и пыли, вернув вашему дому свежесть и чистоту."
             )}
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" className="text-lg h-14 px-8 bg-white text-foreground hover:bg-white/90" asChild>
-              <a href="#contact">{t("Buyurtma berish", "Order Cleaning")}</a>
+              <a href="#contact">{t("Buyurtma berish", "Заказать уборку")}</a>
             </Button>
             <Button size="lg" variant="outline" className="text-lg h-14 px-8 border-white text-white hover:bg-white/10" asChild>
-              <a href="#services">{t("Xizmatlarimiz", "Our Services")}</a>
+              <a href="#services">{t("Xizmatlarimiz", "Наши услуги")}</a>
             </Button>
           </div>
         </motion.div>

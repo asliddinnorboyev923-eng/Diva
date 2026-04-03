@@ -9,30 +9,30 @@ export function WhyChooseUs() {
     {
       icon: <Leaf className="w-6 h-6" />,
       titleUz: "Ekologik Toza",
-      titleEn: "Eco-Friendly",
+      titleRu: "Экологически чисто",
       descUz: "Sog'liq uchun zararsiz, allergiya chaqirmaydigan vositalar.",
-      descEn: "Safe for health, hypoallergenic cleaning solutions.",
+      descRu: "Безопасные для здоровья, гипоаллергенные чистящие средства.",
     },
     {
       icon: <Clock className="w-6 h-6" />,
       titleUz: "Tezkor Xizmat",
-      titleEn: "Fast Service",
+      titleRu: "Быстрый сервис",
       descUz: "O'z vaqtida yetib borish va ishni tez fursatda tugatish.",
-      descEn: "On-time arrival and completing work swiftly.",
+      descRu: "Приезжаем вовремя и выполняем работу в кратчайшие сроки.",
     },
     {
       icon: <Award className="w-6 h-6" />,
       titleUz: "Premium Sifat",
-      titleEn: "Premium Quality",
+      titleRu: "Премиум качество",
       descUz: "Eng yuqori darajadagi xizmat ko'rsatish kafolati.",
-      descEn: "Guarantee of the highest level of service.",
+      descRu: "Гарантия обслуживания на высочайшем уровне.",
     },
     {
       icon: <ShieldCheck className="w-6 h-6" />,
       titleUz: "Tajribali Jamoa",
-      titleEn: "Experienced Team",
+      titleRu: "Опытная команда",
       descUz: "Malakali va maxsus tayyorgarlikdan o'tgan ustalar.",
-      descEn: "Qualified and specially trained professionals.",
+      descRu: "Квалифицированные специалисты с профессиональной подготовкой.",
     },
   ];
 
@@ -41,7 +41,7 @@ export function WhyChooseUs() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl mb-4 text-foreground">
-            {t("Nima Uchun Biz?", "Why Choose Us?")}
+            {t("Nima Uchun Biz?", "Почему мы?")}
           </h2>
         </div>
 
@@ -59,10 +59,10 @@ export function WhyChooseUs() {
                 {feature.icon}
               </div>
               <h3 className="text-xl font-serif font-medium mb-3 text-foreground">
-                {t(feature.titleUz, feature.titleEn)}
+                {t(feature.titleUz, feature.titleRu)}
               </h3>
               <p className="text-muted-foreground font-light">
-                {t(feature.descUz, feature.descEn)}
+                {t(feature.descUz, feature.descRu)}
               </p>
             </motion.div>
           ))}

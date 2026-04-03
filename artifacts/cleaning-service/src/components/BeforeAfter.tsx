@@ -18,12 +18,12 @@ export function BeforeAfter() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl mb-4 text-foreground">
-            {t("Natijalar", "The Results")}
+            {t("Natijalar", "Результаты")}
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             {t(
               "Farqni o'zingiz ko'ring. Dog'lar va kirlar o'rnini toza va musaffo muhit egallaydi.",
-              "See the difference yourself. Stains and dirt are replaced by a clean and pure environment."
+              "Убедитесь сами. Пятна и загрязнения уходят — остаётся чистота и свежесть."
             )}
           </p>
         </div>
@@ -44,7 +44,7 @@ export function BeforeAfter() {
               className="absolute inset-0 w-full h-full object-cover pointer-events-none"
             />
             <div className="absolute top-4 right-4 bg-background/80 backdrop-blur text-foreground px-3 py-1 text-sm rounded-sm font-medium">
-              {t("Keyin", "After")}
+              {t("Keyin", "После")}
             </div>
 
             {/* Before Image (Foreground, clipped) */}
@@ -58,7 +58,7 @@ export function BeforeAfter() {
                 className="absolute inset-0 w-full h-full object-cover pointer-events-none"
               />
               <div className="absolute top-4 left-4 bg-background/80 backdrop-blur text-foreground px-3 py-1 text-sm rounded-sm font-medium">
-                {t("Oldin", "Before")}
+                {t("Oldin", "До")}
               </div>
             </div>
 

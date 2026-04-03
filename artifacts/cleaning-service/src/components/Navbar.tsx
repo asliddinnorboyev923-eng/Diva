@@ -19,10 +19,10 @@ export function Navbar() {
   }, []);
 
   const navLinks = [
-    { href: "#services", uz: "Xizmatlar", en: "Services" },
-    { href: "#process", uz: "Jarayon", en: "Process" },
-    { href: "#about", uz: "Biz haqimizda", en: "About" },
-    { href: "#contact", uz: "Aloqa", en: "Contact" },
+    { href: "#services", uz: "Xizmatlar", ru: "Услуги" },
+    { href: "#process", uz: "Jarayon", ru: "Процесс" },
+    { href: "#about", uz: "Biz haqimizda", ru: "О нас" },
+    { href: "#contact", uz: "Aloqa", ru: "Контакты" },
   ];
 
   return (
@@ -36,7 +36,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <Link href="/">
           <span className={`text-2xl font-serif font-bold tracking-tight cursor-pointer ${isScrolled ? "text-foreground" : "text-white"}`}>
-            AuraClean
+            Diva Clean
           </span>
         </Link>
 
@@ -51,19 +51,19 @@ export function Navbar() {
                   isScrolled ? "text-foreground/80" : "text-white/90"
                 }`}
               >
-                {t(link.uz, link.en)}
+                {t(link.uz, link.ru)}
               </a>
             ))}
           </div>
 
           <div className="flex items-center gap-4 border-l border-border/30 pl-4">
             <button
-              onClick={() => setLanguage(language === "uz" ? "en" : "uz")}
+              onClick={() => setLanguage(language === "uz" ? "ru" : "uz")}
               className={`text-sm font-medium uppercase transition-colors hover:opacity-70 ${
                 isScrolled ? "text-foreground" : "text-white"
               }`}
             >
-              {language === "uz" ? "EN" : "UZ"}
+              {language === "uz" ? "RU" : "UZ"}
             </button>
             <Button
               className={
@@ -73,7 +73,7 @@ export function Navbar() {
               }
               asChild
             >
-              <a href="#contact">{t("Buyurtma berish", "Order Cleaning")}</a>
+              <a href="#contact">{t("Buyurtma berish", "Заказать уборку")}</a>
             </Button>
           </div>
         </nav>
@@ -107,22 +107,22 @@ export function Navbar() {
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="text-base font-medium text-foreground py-2 border-b border-border/50"
               >
-                {t(link.uz, link.en)}
+                {t(link.uz, link.ru)}
               </a>
             ))}
             <div className="flex items-center justify-between pt-4">
               <button
                 onClick={() => {
-                  setLanguage(language === "uz" ? "en" : "uz");
+                  setLanguage(language === "uz" ? "ru" : "uz");
                   setIsMobileMenuOpen(false);
                 }}
                 className="text-base font-medium uppercase text-foreground"
               >
-                {language === "uz" ? "Switch to English" : "O'zbek tiliga o'tish"}
+                {language === "uz" ? "Переключить на русский" : "O'zbek tiliga o'tish"}
               </button>
               <Button asChild>
                 <a href="#contact" onClick={() => setIsMobileMenuOpen(false)}>
-                  {t("Buyurtma berish", "Order Cleaning")}
+                  {t("Buyurtma berish", "Заказать уборку")}
                 </a>
               </Button>
             </div>

@@ -17,16 +17,16 @@ export function CTA() {
           className="max-w-2xl mx-auto"
         >
           <h2 className="text-4xl md:text-5xl font-serif mb-6">
-            {t("Bugunoq tozalikka buyurtma bering", "Book your cleaning today")}
+            {t("Bugunoq tozalikka buyurtma bering", "Закажите уборку уже сегодня")}
           </h2>
           <p className="text-primary-foreground/80 text-lg mb-10 font-light">
             {t(
               "Uyingizga qulaylik va poklik olib kirishga tayyormiz. Birgina qo'ng'iroq va biz xizmatingizdamiz.",
-              "We are ready to bring comfort and purity to your home. Just one call and we are at your service."
+              "Готовы принести уют и чистоту в ваш дом. Один звонок — и мы уже на пути к вам."
             )}
           </p>
           <Button size="lg" className="text-lg h-14 px-10 bg-background text-primary hover:bg-background/90" asChild>
-            <a href="#contact">{t("Buyurtma berish", "Order Cleaning")}</a>
+            <a href="#contact">{t("Buyurtma berish", "Заказать уборку")}</a>
           </Button>
         </motion.div>
       </div>

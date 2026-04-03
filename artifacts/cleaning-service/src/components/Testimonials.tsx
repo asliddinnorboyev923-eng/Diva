@@ -9,19 +9,19 @@ export function Testimonials() {
       name: "Malika K.",
       role: "Tashkent",
       textUz: "Gilamlarim xuddi yangidek bo'lib ketdi. Xizmat sifati a'lo darajada, barchaga tavsiya qilaman.",
-      textEn: "My carpets look brand new. The quality of service is excellent, highly recommended.",
+      textRu: "Мои ковры выглядят как новые. Качество обслуживания на высшем уровне, всем рекомендую.",
     },
     {
       name: "Rustam A.",
       role: "Tashkent",
       textUz: "Mebellarni tozalash jarayoni juda tez va professional tarzda amalga oshirildi. Rahmat!",
-      textEn: "The furniture cleaning process was very fast and professional. Thank you!",
+      textRu: "Чистка мебели прошла очень быстро и профессионально. Спасибо!",
     },
     {
       name: "Aziza S.",
       role: "Tashkent",
       textUz: "Hid va dog'lardan asar ham qolmadi. Uydagi havo butunlay o'zgardi, pokiza va toza.",
-      textEn: "Not a trace of odors or stains left. The air in the house completely changed, pure and clean.",
+      textRu: "Ни следа запахов и пятен. Воздух в доме полностью изменился — чистый и свежий.",
     },
   ];
 
@@ -30,7 +30,7 @@ export function Testimonials() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl mb-4 text-foreground">
-            {t("Mijozlar Fikri", "Customer Testimonials")}
+            {t("Mijozlar Fikri", "Отзывы клиентов")}
           </h2>
         </div>
 
@@ -45,7 +45,7 @@ export function Testimonials() {
               className="bg-card p-8 rounded-sm shadow-sm"
             >
               <p className="text-muted-foreground font-light italic mb-6">
-                "{t(testi.textUz, testi.textEn)}"
+                "{t(testi.textUz, testi.textRu)}"
               </p>
               <div className="flex items-center gap-4">
                 <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center text-primary font-serif font-bold">

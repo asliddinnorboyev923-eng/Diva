@@ -9,30 +9,30 @@ export function Process() {
     {
       icon: <Search className="w-6 h-6" />,
       titleUz: "Ko'zdan kechirish",
-      titleEn: "Inspection",
+      titleRu: "Осмотр",
       descUz: "Mato turi va ifloslanish darajasini aniqlaymiz.",
-      descEn: "We determine the fabric type and level of soiling.",
+      descRu: "Определяем тип ткани и степень загрязнения.",
     },
     {
       icon: <Wind className="w-6 h-6" />,
       titleUz: "Changdan tozalash",
-      titleEn: "Vacuuming",
+      titleRu: "Пылесосение",
       descUz: "Kuchli changyutgich bilan quruq tozalash o'tkazamiz.",
-      descEn: "Dry cleaning with a powerful industrial vacuum.",
+      descRu: "Сухая чистка мощным промышленным пылесосом.",
     },
     {
       icon: <Droplets className="w-6 h-6" />,
       titleUz: "Chuqur tozalash",
-      titleEn: "Deep Cleaning",
+      titleRu: "Глубокая чистка",
       descUz: "Maxsus vositalar bilan dog' va kirlarni yuvamiz.",
-      descEn: "Washing away stains and dirt with special solutions.",
+      descRu: "Удаление пятен и загрязнений специальными средствами.",
     },
     {
       icon: <Sun className="w-6 h-6" />,
       titleUz: "Quritish",
-      titleEn: "Drying",
+      titleRu: "Сушка",
       descUz: "Qisqa vaqt ichida to'liq quritib, foydalanishga topshiramiz.",
-      descEn: "Complete drying in a short time, ready for use.",
+      descRu: "Полная сушка в короткие сроки, готово к использованию.",
     },
   ];
 
@@ -57,12 +57,12 @@ export function Process() {
           
           <div className="w-full md:w-1/2">
             <h2 className="text-3xl md:text-5xl mb-6 text-foreground">
-              {t("Ish Jarayoni", "Cleaning Process")}
+              {t("Ish Jarayoni", "Процесс работы")}
             </h2>
             <p className="text-muted-foreground mb-12 text-lg">
               {t(
                 "Har bir bosqich qat'iy nazorat ostida, xalqaro standartlarga muvofiq amalga oshiriladi.",
-                "Every step is under strict control, carried out in accordance with international standards."
+                "Каждый этап выполняется под строгим контролем в соответствии с международными стандартами."
               )}
             </p>
 
@@ -81,10 +81,10 @@ export function Process() {
                   </div>
                   <div>
                     <h4 className="text-xl font-serif font-medium mb-1 text-foreground">
-                      {t(step.titleUz, step.titleEn)}
+                      {t(step.titleUz, step.titleRu)}
                     </h4>
                     <p className="text-muted-foreground font-light">
-                      {t(step.descUz, step.descEn)}
+                      {t(step.descUz, step.descRu)}
                     </p>
                   </div>
                 </motion.div>
