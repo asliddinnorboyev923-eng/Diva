@@ -22,11 +22,8 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="max-w-3xl"
+          className="max-w-3xl -mt-12"
         >
-          <span className="inline-block py-1 px-3 mb-6 border border-white/30 text-white text-sm font-medium tracking-widest uppercase backdrop-blur-sm">
-            {t("Premium Tozalash Xizmati", "Премиум-сервис уборки")}
-          </span>
           <h1 className="text-5xl md:text-7xl font-serif text-white leading-[1.1] mb-6">
             {t(
               "Mebelingizni yangi holatga qaytaramiz — 1 kunda toza, yangi va yoqimli hid bilan",
