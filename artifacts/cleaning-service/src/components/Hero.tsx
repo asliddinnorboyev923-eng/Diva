@@ -24,13 +24,13 @@ export function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="max-w-3xl -mt-12"
         >
-          <h1 className="text-5xl md:text-7xl font-serif text-white leading-[1.1] mb-6">
+          <h1 className="text-3xl md:text-5xl font-serif text-white leading-[1.15] mb-4">
             {t(
               "Mebelingizni yangi holatga qaytaramiz — 1 kunda toza, yangi va yoqimli hid bilan",
               "Вернем вашей мебели новый вид — чистота, свежесть и приятный запах всего за 1 день"
             )}
           </h1>
-          <p className="text-lg md:text-xl text-white/90 mb-10 max-w-2xl font-light">
+          <p className="text-base md:text-lg text-white/90 mb-8 max-w-2xl font-light">
             {t(
               "Bizning mutaxassislarimiz mebel va gilamlaringizni dog', bakteriya va changlardan tozalab, uyingizga musaffolik baxsh etadi.",
               "Наши специалисты очистят мебель и ковры от пятен, бактерий и пыли, вернув вашему дому свежесть и чистоту."

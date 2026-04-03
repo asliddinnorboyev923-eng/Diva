@@ -116,6 +116,23 @@ export function Contact() {
           </motion.div>
 
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mt-16 overflow-hidden rounded-sm border border-card-border shadow-sm"
+          style={{ height: "380px" }}
+        >
+          <iframe
+            title="Diva Clean Location"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=67.252806%2C37.211611%2C67.272806%2C37.231611&layer=mapnik&marker=37.221611%2C67.262806"
+            width="100%"
+            height="100%"
+            style={{ border: 0, display: "block" }}
+            loading="lazy"
+          />
+        </motion.div>
       </div>
     </section>
   );
