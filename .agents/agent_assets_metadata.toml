@@ -1,0 +1,26 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "UOcWn3WHATSLVp3QsBzu7"
+uri = "file://artifacts/cleaning-service/public/hero-bg.png"
+type = "image"
+title = "Luxury clean living room"
+
+[[generated]]
+id = "vMBvAjoSgqldmV8nUs1Cl"
+uri = "file://artifacts/cleaning-service/public/carpet-before.png"
+type = "image"
+title = "Dirty stained carpet"
+
+[[generated]]
+id = "ptwPyaMylFltO-xJNhbE9"
+uri = "file://artifacts/cleaning-service/public/carpet-after.png"
+type = "image"
+title = "Clean spotless carpet"
+
+[[generated]]
+id = "qYfPsvwF9jyuw6e63pd1h"
+uri = "file://artifacts/cleaning-service/public/process-vacuum.png"
+type = "image"
+title = "Cleaning process vacuum"

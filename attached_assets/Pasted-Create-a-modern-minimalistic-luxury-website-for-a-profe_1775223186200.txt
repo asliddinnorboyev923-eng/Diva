@@ -1,0 +1,89 @@
+Create a modern, minimalistic luxury website for a professional furniture and carpet cleaning service company.
+
+STYLE & DESIGN:
+- Minimalist, premium, luxury aesthetic
+- Clean layout with lots of white space
+- Soft neutral color palette (white, beige, light gray, with dark accents)
+- Smooth micro-interactions and subtle animations (fade-in, hover effects, soft transitions)
+- Use high-quality icons and visuals
+- Focus on trust, cleanliness, and professionalism
+
+TYPOGRAPHY:
+- Elegant sans-serif font (modern and readable)
+- Clear hierarchy (large headings, clean body text)
+
+LANGUAGE:
+- The website must support two languages: Uzbek and English
+- Include a language switcher in the navbar (UZ / EN)
+
+LAYOUT STRUCTURE:
+
+1. HERO SECTION:
+- Strong headline: emphasize deep cleaning, hygiene, and premium service
+- Subheadline explaining benefits (removing stains, bacteria, freshness)
+- CTA button: "Order Cleaning" / "Buyurtma berish"
+- Background: clean home interior or cleaning process visual
+
+2. SERVICES SECTION:
+- Furniture cleaning
+- Carpet cleaning
+- Mattress cleaning
+- Each service with icon + short description
+- Cards with hover animation
+
+3. PROCESS (IMPORTANT FOCUS):
+- Step-by-step cleaning process (very important for trust)
+- Example:
+  1. Inspection
+  2. Vacuuming
+  3. Deep cleaning
+  4. Drying
+- Use icons and smooth animations
+- Visually engaging timeline or steps UI
+
+4. BEFORE / AFTER SECTION:
+- Visual comparison (slider or side-by-side)
+- Show real cleaning results
+
+5. WHY CHOOSE US:
+- Key benefits:
+  - Eco-friendly products
+  - Fast service
+  - Experienced team
+  - Affordable premium quality
+- Use icons and minimal cards
+
+6. TESTIMONIALS:
+- Customer reviews
+- Clean card layout with subtle animation
+
+7. CTA SECTION:
+- Strong selling block
+- "Book your cleaning today"
+- Button with standout design
+
+8. CONTACT SECTION:
+- Phone number
+- Telegram / WhatsApp
+- Location
+- Simple contact form
+
+NAVBAR:
+- Clean sticky navbar
+- Logo on left
+- Menu items on right
+- Language switcher (UZ | EN)
+- CTA button
+
+FOOTER:
+- Minimal
+- Contacts + social links
+
+ANIMATIONS:
+- Smooth and fast (not heavy)
+- Micro-interactions on buttons and cards
+- Scroll-based fade-ins
+
+GOAL:
+- The website should feel premium, trustworthy, and conversion-focused
+- Designed to turn visitors into customers
