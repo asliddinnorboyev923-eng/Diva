@@ -42,6 +42,8 @@ export function BeforeAfter() {
               src="/carpet-after.png"
               alt="Clean carpet"
               className="absolute inset-0 w-full h-full object-cover pointer-events-none"
+              loading="lazy"
+              decoding="async"
             />
             <div className="absolute top-4 right-4 bg-background/80 backdrop-blur text-foreground px-3 py-1 text-sm rounded-sm font-medium">
               {t("Keyin", "После")}
@@ -56,6 +58,8 @@ export function BeforeAfter() {
                 src="/carpet-before.png"
                 alt="Dirty carpet"
                 className="absolute inset-0 w-full h-full object-cover pointer-events-none"
+                loading="lazy"
+                decoding="async"
               />
               <div className="absolute top-4 left-4 bg-background/80 backdrop-blur text-foreground px-3 py-1 text-sm rounded-sm font-medium">
                 {t("Oldin", "До")}

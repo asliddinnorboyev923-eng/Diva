@@ -1,13 +1,15 @@
+import { Suspense, lazy } from "react";
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
-import { Services } from "@/components/Services";
-import { Process } from "@/components/Process";
-import { BeforeAfter } from "@/components/BeforeAfter";
-import { WhyChooseUs } from "@/components/WhyChooseUs";
-import { Testimonials } from "@/components/Testimonials";
-import { CTA } from "@/components/CTA";
-import { Contact } from "@/components/Contact";
-import { Footer } from "@/components/Footer";
+
+const Services = lazy(() => import("@/components/Services").then((m) => ({ default: m.Services })));
+const Process = lazy(() => import("@/components/Process").then((m) => ({ default: m.Process })));
+const BeforeAfter = lazy(() => import("@/components/BeforeAfter").then((m) => ({ default: m.BeforeAfter })));
+const WhyChooseUs = lazy(() => import("@/components/WhyChooseUs").then((m) => ({ default: m.WhyChooseUs })));
+const Testimonials = lazy(() => import("@/components/Testimonials").then((m) => ({ default: m.Testimonials })));
+const CTA = lazy(() => import("@/components/CTA").then((m) => ({ default: m.CTA })));
+const Contact = lazy(() => import("@/components/Contact").then((m) => ({ default: m.Contact })));
+const Footer = lazy(() => import("@/components/Footer").then((m) => ({ default: m.Footer })));
 
 export default function Home() {
   return (
@@ -15,15 +17,19 @@ export default function Home() {
       <Navbar />
       <main className="flex-grow">
         <Hero />
-        <Services />
-        <Process />
-        <BeforeAfter />
-        <WhyChooseUs />
-        <Testimonials />
-        <CTA />
-        <Contact />
+        <Suspense fallback={<div className="py-24" />}>
+          <Services />
+          <Process />
+          <BeforeAfter />
+          <WhyChooseUs />
+          <Testimonials />
+          <CTA />
+          <Contact />
+        </Suspense>
       </main>
-      <Footer />
+      <Suspense fallback={null}>
+        <Footer />
+      </Suspense>
     </div>
   );
 }
