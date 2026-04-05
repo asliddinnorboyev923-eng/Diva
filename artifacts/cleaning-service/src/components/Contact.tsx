@@ -89,8 +89,11 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">{t("Telefon", "Телефон")}</p>
-                  <a href="tel:+998901234567" className="text-lg font-medium text-foreground hover:text-primary transition-colors">
-                    +998 90 123 45 67
+                  <a href="tel:+998997554633" className="block text-lg font-medium text-foreground hover:text-primary transition-colors">
+                    +998 99 755 46 33
+                  </a>
+                  <a href="tel:+998770394242" className="block text-lg font-medium text-foreground hover:text-primary transition-colors">
+                    +998 77 039 42 42
                   </a>
                 </div>
               </div>
@@ -101,8 +104,11 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Telegram / WhatsApp</p>
-                  <a href="tel:+998901234567" className="text-lg font-medium text-foreground hover:text-primary transition-colors">
-                    +998 90 123 45 67
+                  <a href="tel:+998997554633" className="block text-lg font-medium text-foreground hover:text-primary transition-colors">
+                    +998 99 755 46 33
+                  </a>
+                  <a href="tel:+998770394242" className="block text-lg font-medium text-foreground hover:text-primary transition-colors">
+                    +998 77 039 42 42
                   </a>
                 </div>
               </div>
@@ -114,7 +120,7 @@ export function Contact() {
                 <div>
                   <p className="text-sm text-muted-foreground">{t("Manzil", "Адрес")}</p>
                   <p className="text-lg font-medium text-foreground">
-                    Tashkent, Uzbekistan
+                    Termez, Uzbekistan
                   </p>
                 </div>
               </div>
