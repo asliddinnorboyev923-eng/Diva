@@ -7,19 +7,19 @@ export function Testimonials() {
   const testimonials = [
     {
       name: "Malika K.",
-      role: "Tashkent",
+      role: "Termez",
       textUz: "Gilamlarim xuddi yangidek bo'lib ketdi. Xizmat sifati a'lo darajada, barchaga tavsiya qilaman.",
       textRu: "Мои ковры выглядят как новые. Качество обслуживания на высшем уровне, всем рекомендую.",
     },
     {
       name: "Rustam A.",
-      role: "Tashkent",
+      role: "Termez",
       textUz: "Mebellarni tozalash jarayoni juda tez va professional tarzda amalga oshirildi. Rahmat!",
       textRu: "Чистка мебели прошла очень быстро и профессионально. Спасибо!",
     },
     {
       name: "Aziza S.",
-      role: "Tashkent",
+      role: "Termez",
       textUz: "Hid va dog'lardan asar ham qolmadi. Uydagi havo butunlay o'zgardi, pokiza va toza.",
       textRu: "Ни следа запахов и пятен. Воздух в доме полностью изменился — чистый и свежий.",
     },
