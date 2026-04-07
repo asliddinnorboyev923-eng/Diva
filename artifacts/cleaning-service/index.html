@@ -1,10 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <title>Diva Clean — Mebel va Gilam Tozalash | Termez</title>
-    <meta name="description" content="Diva Clean — Termezdagi professional mebel, gilam va matras tozalash xizmati. Toza, yangi va yoqimli hid bilan qaytaramiz." />
+
+    <!-- SEO: Title -->
+    <title>Diva Clean — Termizda Gilam, Mebel va Matras Yuvish Xizmati</title>
+
+    <!-- SEO: Description -->
+    <meta name="description" content="Diva Clean — Termizda professional gilam yuvish, mebel va matras tozalash xizmati. Tez, sifatli va arzon narxda. Termez'da №1 tozalash kompaniyasi. ☎ +998 99 755 46 33" />
+
+    <!-- SEO: Keywords (Uzbek + Russian + ikki xil yozilish) -->
+    <meta name="keywords" content="gilam yuvish Termiz, gilam yuvish Termez, мойка ковров Термез, mebel tozalash Termiz, matras tozalash Termiz, химчистка мебели Термез, химчистка ковров Термез, Diva Clean Termiz, профессиональная чистка Термез, gilam tozalash, kover yuvish Surxondaryo, мойка мебели Термез" />
+
+    <!-- SEO: Robots -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- SEO: Author / Copyright -->
+    <meta name="author" content="Diva Clean" />
+
+    <!-- Open Graph (for social media sharing) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Diva Clean — Termizda Gilam va Mebel Yuvish" />
+    <meta property="og:description" content="Professional gilam yuvish, mebel va matras tozalash xizmati Termizda. Tez va sifatli! ☎ +998 99 755 46 33" />
+    <meta property="og:locale" content="uz_UZ" />
+    <meta property="og:locale:alternate" content="ru_RU" />
+    <meta property="og:site_name" content="Diva Clean" />
+
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
     <!-- DNS prefetch for external resources -->
@@ -16,11 +38,58 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <!-- Fonts: Inter + Playfair Display with display=swap so text renders immediately -->
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet" />
 
-    <!-- Preload hero background so the LCP image starts fetching immediately -->
+    <!-- Preload hero image -->
     <link rel="preload" href="/hero-bg.png" as="image" fetchpriority="high" />
+
+    <!-- JSON-LD: Local Business Schema (Google'ga biznes ma'lumot beradi) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Diva Clean",
+      "description": "Termizda professional gilam yuvish, mebel va matras tozalash xizmati. Профессиональная химчистка ковров, мебели и матрасов в Термезе.",
+      "url": "https://diva-clean.uz",
+      "@id": "diva-clean-termiz",
+      "telephone": ["+998997554633", "+998770394242"],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Termiz",
+        "addressRegion": "Surxondaryo viloyati",
+        "addressCountry": "UZ"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.221611,
+        "longitude": 67.262806
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Termiz"
+      },
+      "serviceType": [
+        "Gilam yuvish",
+        "Mebel tozalash",
+        "Matras tozalash",
+        "Химчистка ковров",
+        "Химчистка мебели",
+        "Чистка матрасов"
+      ],
+      "priceRange": "$$",
+      "openingHours": "Mo-Su 08:00-20:00",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+998997554633",
+        "contactType": "customer service",
+        "availableLanguage": ["Uzbek", "Russian"]
+      },
+      "sameAs": [
+        "https://t.me/DivaCleaningbot"
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
