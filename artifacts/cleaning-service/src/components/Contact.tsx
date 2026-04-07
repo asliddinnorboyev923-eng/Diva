@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
 
 const TELEGRAM_BOT_TOKEN = "8623785697:AAFLIPX2MSTsdmrHYhcFONTjE031ZHDk7lM";
-const TELEGRAM_CHAT_ID = "-5239348615";
+const TELEGRAM_CHAT_ID = "-1003880455939";
 
 export function Contact() {
   const { t } = useLanguage();
