@@ -5,6 +5,10 @@ import { Button } from "@/components/ui/button";
 
 const slides = [
   {
+    url: "https://images.pexels.com/photos/6197109/pexels-photo-6197109.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    alt: "Beautiful clean carpet rug",
+  },
+  {
     url: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1600&q=80&auto=format&fit=crop",
     alt: "Clean luxury sofa",
   },
