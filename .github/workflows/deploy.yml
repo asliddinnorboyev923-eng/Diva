@@ -43,7 +43,7 @@ jobs:
         run: pnpm --filter @workspace/cleaning-service run build
         env:
           PORT: 3000
-          BASE_PATH: /Diva/
+          BASE_PATH: /
           NODE_ENV: production
 
       - name: Setup Pages
