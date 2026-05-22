@@ -10,16 +10,14 @@
     <!-- SEO: Description -->
     <meta name="description" content="Diva Clean — Termizda professional gilam yuvish, mebel va matras tozalash xizmati. Tez, sifatli va arzon narxda. Termez'da №1 tozalash kompaniyasi. ☎ +998 99 755 46 33" />
 
-    <!-- SEO: Keywords (Uzbek + Russian + ikki xil yozilish) -->
+    <!-- SEO: Keywords -->
     <meta name="keywords" content="gilam yuvish Termiz, gilam yuvish Termez, мойка ковров Термез, mebel tozalash Termiz, matras tozalash Termiz, химчистка мебели Термез, химчистка ковров Термез, Diva Clean Termiz, профессиональная чистка Термез, gilam tozalash, kover yuvish Surxondaryo, мойка мебели Термез" />
 
     <!-- SEO: Robots -->
     <meta name="robots" content="index, follow" />
-
-    <!-- SEO: Author / Copyright -->
     <meta name="author" content="Diva Clean" />
 
-    <!-- Open Graph (for social media sharing) -->
+    <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Diva Clean — Termizda Gilam va Mebel Yuvish" />
     <meta property="og:description" content="Professional gilam yuvish, mebel va matras tozalash xizmati Termizda. Tez va sifatli! ☎ +998 99 755 46 33" />
@@ -28,31 +26,23 @@
     <meta property="og:site_name" content="Diva Clean" />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-
-    <!-- DNS prefetch for external resources -->
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
     <link rel="dns-prefetch" href="https://www.openstreetmap.org" />
-
-    <!-- Preconnect for fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet" />
-
-    <!-- Preload hero image -->
     <link rel="preload" href="/hero-bg.png" as="image" fetchpriority="high" />
 
-    <!-- JSON-LD: Local Business Schema (Google'ga biznes ma'lumot beradi) -->
+    <!-- JSON-LD: LocalBusiness -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "Diva Clean",
       "description": "Termizda professional gilam yuvish, mebel va matras tozalash xizmati. Профессиональная химчистка ковров, мебели и матрасов в Термезе.",
-      "url": "https://diva-clean.uz",
-      "@id": "diva-clean-termiz",
+      "url": "https://diva-cleaning.uz",
+      "@id": "https://diva-cleaning.uz",
       "telephone": ["+998997554633", "+998770394242"],
       "address": {
         "@type": "PostalAddress",
@@ -69,14 +59,36 @@
         "@type": "City",
         "name": "Termiz"
       },
-      "serviceType": [
-        "Gilam yuvish",
-        "Mebel tozalash",
-        "Matras tozalash",
-        "Химчистка ковров",
-        "Химчистка мебели",
-        "Чистка матрасов"
-      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Tozalash xizmatlari",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gilam yuvish / Химчистка ковров",
+              "description": "Termizda professional gilam va kover yuvish xizmati. Har qanday hajmdagi gilam, dog' va bakteriyalardan tozalanadi."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Mebel tozalash / Химчистка мебели",
+              "description": "Divan, kreslo va boshqa mebel tozalash xizmati Termizda. Chuqur tozalash, yoqimli hid."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Matras tozalash / Чистка матрасов",
+              "description": "Matras va o'rinchiq tozalash xizmati. Bakteriya, changchi bit va dog'lardan tozalanadi."
+            }
+          }
+        ]
+      },
       "priceRange": "$$",
       "openingHours": "Mo-Su 08:00-20:00",
       "contactPoint": {
@@ -87,6 +99,64 @@
       },
       "sameAs": [
         "https://t.me/DivaCleaningbot"
+      ]
+    }
+    </script>
+
+    <!-- JSON-LD: FAQ (AI va Google uchun savol-javob) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Termizda gilam yuvish xizmati qayerda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Diva Clean — Termizda (Surxondaryo viloyati) professional gilam yuvish xizmati. Telefon: +998 99 755 46 33 yoki +998 77 039 42 42. Sayt: diva-cleaning.uz"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Где помыть ковёр в Термезе?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Diva Clean — профессиональная химчистка ковров, мебели и матрасов в Термезе (Сурхандарьинская область, Узбекистан). Телефон: +998 99 755 46 33 или +998 77 039 42 42. Сайт: diva-cleaning.uz"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Diva Clean qanday xizmatlar ko'rsatadi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Diva Clean Termizda quyidagi xizmatlarni ko'rsatadi: 1) Gilam va kover yuvish, 2) Divan va mebel tozalash, 3) Matras tozalash. Xizmat Termizning barcha hududlariga keladi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Termizda gilam yuvish narxi qancha?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Diva Clean'da gilam yuvish narxi gilam o'lchamiga qarab belgilanadi. Aniq narx bilish uchun: +998 99 755 46 33 raqamiga qo'ng'iroq qiling yoki diva-cleaning.uz saytida buyurtma bering."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Termizda uyga kelib gilam yuvishadimi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ha, Diva Clean mutaxassislari uyingizga kelib gilam, mebel va matraslarni o'z joyida tozalaydi. Bugungi kunda Termizning barcha mahallalariga xizmat ko'rsatiladi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which carpet cleaning service is available in Termez Uzbekistan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Diva Clean is a professional carpet, furniture, and mattress cleaning service based in Termez (Termiz), Surxondaryo region, Uzbekistan. Contact: +998 99 755 46 33. Website: diva-cleaning.uz"
+          }
+        }
       ]
     }
     </script>
